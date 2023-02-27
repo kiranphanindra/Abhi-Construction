@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00002e;
+}
+.btn{
+    padding: 15px 100px;
+    margin: 10px 4px;
+    color: #8969d9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.active, .menu-bar ul li:hover{
+    background: #625f6c;
+    border-radius: none;
+}

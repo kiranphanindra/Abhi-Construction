@@ -1,61 +1,33 @@
 *{
-    margin: 0;
     padding: 0;
-    background-color: rgb(222, 194, 32);
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+    background-position: center;
 }
-ul{
-    float: right;
-    list-style-type: none;
-    margin-top: 30px;
-    min-height: 400px;
-    margin-right: 60px;
-    font-size: 17px;
+.menu-bar{
+    text-align: center;
+    background: yellowgreen;
 }
-ul li{
-    display: inline-block;
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
 }
-ul li a{
+.menu-bar ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-bar ul li a{
     text-decoration: none;
-    color: #fff;
-    padding: 5px 20px;
-    border: 1px solid transparent;
-    transition: 0.5s;
+    color: #6058b3;
 }
-ul li a:hover{
-    background-color: orangered;
-    color: #000;
-}
-.logo img{
-    float: left;
-    width: 150px;
-    height: auto;
-}
-.main{
-    max-width: 1200px;
-    margin: auto;
-}
-.title{
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.title h1{
-    color: #fff;
-    font-size: 70px;
-}
-.button{
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.btn{
-    border: 1px solid#fff;
-    padding:5px 20px;
-    color: #ffff;
-    transition: 0.5s;
-    font-size: 18px;
-    text-decoration: none;
+.active, .menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
 }
