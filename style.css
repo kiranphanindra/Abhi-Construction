@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: yellow;
+    background-color: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-size: cover;
     background-position: center;
 }
 .menu-bar{
-    text-align: center;
-    background: yellowgreen;
+    text-align: right middle;
+    background: none;
+    font-size: 15px;
 }
 .menu-bar ul{
     display: inline-flex;
@@ -19,15 +20,16 @@ body{
     color: white;
 }
 .menu-bar ul li{
-    width: 120px;
-    margin: 10px;
-    padding: 10px;
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
 }
 .menu-bar ul li a{
     text-decoration: none;
     color: #6058b3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .active, .menu-bar ul li:hover{
     background: #2bab0d;
-    border-radius: 3px;
+    border-radius: none;
 }
